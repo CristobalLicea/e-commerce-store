@@ -1,6 +1,5 @@
 import React from "react";
 import AdBox from "../adBox/adBox";
-import RowBox from "../adBox/adRow";
 import SmallBox from "../adBox/smallBox";
 import ItemBox from "../itemBox/itemBox";
 import PageBox from "../pageBox/pageBox";

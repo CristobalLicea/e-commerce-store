@@ -32,13 +32,11 @@ class RowBox extends React.Component {
       <div className="rowBox">
         <div className="title">Deals just for you!</div>
         <div className="rowContent">
-          {this.loaded ? (
-          <div>
-            {this.state.items.map(item => {
+          {(this.loaded ? (
+            this.state.items.map(item => 
               <SmallProductBox name={item.name} price={item.price} img={item.image.url}/>
-            })
-          }
-          </div>) : null}
+            )
+          ) : null)}
         </div>
       </div>
     )
