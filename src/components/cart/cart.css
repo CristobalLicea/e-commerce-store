@@ -1,0 +1,99 @@
+#cartPage {
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cart {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  color: black;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #6d6d6d;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  font-size: 14px;
+  position: relative;
+}
+
+.part {
+  width: 25%;
+  text-align: start;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  border-radius: 5px;
+  border: solid rgb(199, 0, 0) 1px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(160, 0, 0);
+  transition: all .2s ease-in-out;
+}
+
+.delete:hover {
+  border: solid rgb(255, 0, 0) 2px;
+  color: rgb(255, 0, 0);
+}
+
+.qInput {
+  background-color: rgb(219, 219, 219);
+  border: solid black 1px;
+  width: 30px;
+}
+
+.invalidInput {
+  background-color: rgb(255, 182, 182);
+  border: solid rgb(255, 0, 0) 1px;
+}
+
+.off {
+  position: absolute;
+}
+
+#checkout {
+  width: 50%;
+  height: 40px;
+  margin: 50px 0;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(0, 184, 0);
+  color: white;
+  border-radius: 20px;
+  border: 0;
+}
+
+#checkout:hover {
+  background-color: white;
+  color: rgb(0, 184, 0);
+  border: solid rgb(0, 184, 0) 1px;
+}
+
+.qtyChange {
+  height: 20px;
+}
+
+#quant {
+  padding: 10px;
+}
+
+.amountInput {
+  width: 40px;
+  text-align: end;
+}
+

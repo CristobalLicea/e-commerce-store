@@ -1,0 +1,122 @@
+#mainPage {
+  background-color: white;
+  height:100vh;
+  width:100vw;
+}
+
+#content {
+  margin-top: 50px;
+}
+
+#homePage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#cartItems {
+  position: absolute;
+  top: -1px;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 208, 0);
+  border-radius: 50px;
+}
+
+#sections {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#sections div{
+margin: 0 15px;
+}
+
+footer {
+  width: 100vw;
+  height: 200px;
+  background-color: rgb(105, 0, 0);
+}
+
+#optionButton {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  margin-left: 25px;
+  color: rgb(0, 0, 0);
+}
+
+#signInBtns {
+  position: absolute;
+  width: 200px;
+  top: 80px;
+}
+
+#off {
+  display: none;
+}
+
+#signInOptions {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#signInOptions button{
+margin: 10px;
+background-color: white;
+border: 0;
+height: 25px;
+width: 80%;
+background-color: rgb(0, 255, 55);
+transition: all .3s ease-in-out;
+}
+
+#signInOptions button:hover {
+  background-color: white;
+  color: rgb(0, 128, 28);
+  border: solid rgb(0, 255, 55) 1px;
+}
+
+.navAside {
+  position: absolute;
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 5px;
+  color: black;
+  top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.option {
+  padding: 5px 25px;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+}
+
+.off {
+  display: none;
+}
+
+#logInReg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(138, 138, 138, .7);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 6;
+}

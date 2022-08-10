@@ -1,0 +1,58 @@
+.pageBox {
+  width: 400px;
+  height: 400px;
+  margin: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(78, 78, 78);
+  color: black;
+  text-align: start;
+}
+
+.pageBox h2 {
+  margin: 0px 20px;
+  border-bottom: solid black 1px;
+  transition: all .2s ease-in-out;
+}
+
+.pageBox h2:hover {
+  color:rgb(200, 0, 0);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.pageBox p {
+  margin: 0px 5px;
+  font-size: 12px;
+  color: rgb(110, 0, 0);
+  transition: all .3s ease-in-out;
+}
+
+.showSpace {
+  width: 100%;
+  height: 89%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  transition: all .2s ease-in-out;
+}
+
+.item:hover {
+  background-color: rgb(255, 177, 177);
+  transform: scale(1.2);
+  border: solid black 2px;
+}
+
+.item:hover p {
+  font-size: 14px;
+}
+
+.imgSpace1 {
+  width: 90%;
+  height: 90%;
+}

@@ -1,0 +1,163 @@
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(180, 0, 0);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  font-family: 'nanum gothic';
+}
+
+#navTop {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navTop a{
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  transition: all 0.15s ease-in-out;
+}
+
+.navBtn{
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 25px;
+  transition: all 0.15s ease-in-out;
+  border: 0;
+  color: white;
+  background-color: transparent;
+}
+
+.navBtn2{
+  width: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: relative;
+}
+
+.navBtn2:hover {
+  background-color: rgb(255, 143, 143);
+  color: red;
+  cursor: pointer;
+}
+
+#navTop a:hover{
+  background-color: rgb(152, 152, 255);
+}
+
+.navBtn:hover{
+  transform: scale(1.2);
+  color: rgb(255, 217, 0);
+  text-shadow: 0 5px 5px black;
+  cursor: pointer;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sections div {
+}
+
+#sections div:hover {
+  color: rgb(180, 0, 0);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.home {
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  border: solid rgb(180, 0, 0) 1px;
+  background-color: rgb(180, 0, 0);
+  text-shadow: 0 5px 5px black;
+}
+
+.home:hover {
+  color: rgb(255, 217, 0);
+  cursor: pointer;
+}
+
+#searchBar {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 0;
+}
+
+#searchConfirm {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border: 0;
+  border-radius: 100px;
+  background-color: rgb(255, 208, 0);
+  width: 30px;
+  height: 30px;
+  transition: all .3s ease-in-out;
+}
+
+#searchConfirm:hover {
+  background-color: rgb(180, 0, 0);
+  cursor: pointer;
+}
+
+#searchSpace {
+  width: 45%;
+  position: relative;
+}
+
+#navBot {
+  margin-top: 80px;
+}
+
+#navBottom {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid white 1px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .navBtn {
+    display: none;
+  }
+
+  #searchSpace {
+    width: 65%;
+  }
+
+  #optionButton {
+    display: none;
+  }
+}

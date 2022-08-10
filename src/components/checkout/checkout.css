@@ -1,0 +1,189 @@
+.summary {
+  width: 100vw;
+  height: 84vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressPage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addressForm {
+  width: 60%;
+  color: black;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(228, 204, 204);
+  margin-top: 35px;
+}
+
+.summaryCard {
+  width: 25%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(228, 204, 204);
+  margin-top: 35px;
+  margin-right: 80px;
+  padding: 10px;
+  text-align: start;
+  color: black;
+  font-weight: 300;
+}
+
+.addressForm h4 {
+  text-align: start;
+  padding: 25px;
+  background-color: rgb(182, 182, 255);
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.addressForm form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.addressForm input {
+  width: 97%;
+  height: 55px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  border: solid gray 1px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.addressForm input:focus {
+  border: solid rgb(0, 0, 0) 3px;
+}
+
+.inputSection {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+} 
+
+.inputSection2 {
+  width: 95%;
+  display: flex;
+  justify-content: start;
+} 
+
+.inputSection3 {
+  width: 95%;
+  justify-content: start;
+  text-align: start;
+} 
+
+.inputTextholder {
+  position: absolute;
+  color: rgb(134, 134, 134);
+  top: 10px;
+  left: 20px;
+  font-size: 18px;
+  background-color: white;
+  transition: all .2s ease-in-out;
+}
+
+.inputTextspace {
+  position: relative;
+  width: 50%;
+}
+
+.inputTextspace:hover p { 
+  color: rgb(0, 0, 0);
+  top: -5px;
+  left: 20px;
+  font-size: 10px;
+}
+
+.inputTextspace2 {
+  position: relative;
+  width: 25%;
+}
+
+.inputTextspace3 {
+  position: relative;
+  width: 100%;
+}
+
+.inputTextspace2:hover p { 
+  color: rgb(0, 0, 0);
+  top: -5px;
+  left: 20px;
+  font-size: 10px;
+}
+
+.inputTextspace3:hover p { 
+  color: rgb(0, 0, 0);
+  top: -5px;
+  left: 20px;
+  font-size: 10px;
+}
+
+.inputTextspace2 select{
+  width: 97%;
+  height: 55px;
+  margin: 10px 0px;
+  border-radius: 4px;
+  border: solid gray 1px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.footText {
+  font-size: 10px;
+}
+
+.continue {
+  background-color: blue;
+  padding: 13px 30px;
+  border-radius: 25px;
+  position: relative;
+  left: 200px;
+  color: white;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.float {
+  color: rgb(0, 0, 0);
+  top: -5px;
+  left: 20px;
+  font-size: 10px;
+  position: absolute;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row p {
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+.confirmationPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmationCard {
+  width: 70%;
+  height: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(228, 204, 204);
+  text-align: center;
+  color:rgb(48, 48, 48);
+}
