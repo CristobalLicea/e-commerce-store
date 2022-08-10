@@ -70,12 +70,12 @@
 .inputSection2 {
   width: 95%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 } 
 
 .inputSection3 {
   width: 95%;
-  justify-content: start;
+  justify-content: flex-start;
   text-align: start;
 } 
 
